@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "lcd_6pin.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -105,6 +106,8 @@ int main(void)
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
   __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, 500u);
+  // Init LCD
+  LcdInit(LCD_DISP_ON_CURSOR_BLINK);
 
   /* USER CODE END 2 */
 
