@@ -75,10 +75,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry excluding="Src/spi_module.c|Src/ledmatrix8x8.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Modules"/>
 						<entry excluding="Src/pcf8574.c|Src/nrf24l01.c|Src/mcp23s17.c|Src/max7219.c|Src/max30100.c|Src/leddrv_pca9685pw.c|Src/bme280.c|Src/flash_w25.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="ChipDrivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry excluding="Src/spi_module.c|Src/ledmatrix8x8.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Modules"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
