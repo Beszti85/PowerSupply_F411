@@ -67,7 +67,8 @@ static void MX_SPI3_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+volatile uint16_t ADC_RawData[6u] = {0u};
+float ADC_Voltage[6u];
 /* USER CODE END 0 */
 
 /**
